@@ -1,7 +1,12 @@
-# api documentation for  [bootstrap-sass (v3.3.7)](https://github.com/twbs/bootstrap-sass#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-bootstrap-sass.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bootstrap-sass) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bootstrap-sass.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bootstrap-sass)
+# npmdoc-bootstrap-sass
+
+#### api documentation for  bootstrap-sass (v3.3.7)  [![npm package](https://img.shields.io/npm/v/npmdoc-bootstrap-sass.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-bootstrap-sass) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-bootstrap-sass.svg)](https://travis-ci.org/npmdoc/node-npmdoc-bootstrap-sass)
+
 #### bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.
 
 [![NPM](https://nodei.co/npm/bootstrap-sass.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/bootstrap-sass)
+
+- [https://npmdoc.github.io/node-npmdoc-bootstrap-sass/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-bootstrap-sass/build/apidoc.html)
 
 [![apidoc](https://npmdoc.github.io/node-npmdoc-bootstrap-sass/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-bootstrap-sass/build/apidoc.html)
 
@@ -16,39 +21,12 @@
 ```json
 
 {
-    "bugs": {
-        "url": "https://github.com/twbs/bootstrap-sass/issues"
-    },
-    "contributors": [
-        {
-            "name": "Thomas McDonald"
-        },
-        {
-            "name": "Tristan Harward"
-        },
-        {
-            "name": "Peter Gumeson"
-        },
-        {
-            "name": "Gleb Mazovetskiy"
-        }
-    ],
-    "dependencies": {},
+    "name": "bootstrap-sass",
+    "version": "3.3.7",
     "description": "bootstrap-sass is a Sass-powered version of Bootstrap 3, ready to drop right into your Sass powered applications.",
-    "devDependencies": {
-        "ejs": "~2.4.2",
-        "mincer": "~1.4.0",
-        "node-sass": "^3.8.0"
-    },
-    "directories": {},
-    "dist": {
-        "shasum": "6596c7ab40f6637393323ab0bc80d064fc630498",
-        "tarball": "https://registry.npmjs.org/bootstrap-sass/-/bootstrap-sass-3.3.7.tgz"
-    },
-    "eyeglass": {
-        "exports": "eyeglass-exports.js",
-        "needs": "^0.7.1"
-    },
+    "main": "assets/javascripts/bootstrap.js",
+    "style": "assets/stylesheets/_bootstrap.scss",
+    "sass": "assets/stylesheets/_bootstrap.scss",
     "files": [
         "assets",
         "eyeglass-exports.js",
@@ -56,46 +34,38 @@
         "LICENSE",
         "README.md"
     ],
-    "gitHead": "5d6b2ebba0c2a5885ce2f0e01e9218db3d3b5e47",
-    "homepage": "https://github.com/twbs/bootstrap-sass#readme",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/twbs/bootstrap-sass"
+    },
     "keywords": [
         "bootstrap",
         "sass",
         "css",
         "eyeglass-module"
     ],
-    "license": "MIT",
-    "main": "assets/javascripts/bootstrap.js",
-    "maintainers": [
-        {
-            "name": "glebm"
-        },
-        {
-            "name": "twbs"
-        }
+    "contributors": [
+        "Thomas McDonald",
+        "Tristan Harward",
+        "Peter Gumeson",
+        "Gleb Mazovetskiy"
     ],
-    "name": "bootstrap-sass",
-    "optionalDependencies": {},
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/twbs/bootstrap-sass.git"
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/twbs/bootstrap-sass/issues"
     },
-    "sass": "assets/stylesheets/_bootstrap.scss",
-    "scripts": {},
-    "style": "assets/stylesheets/_bootstrap.scss",
-    "version": "3.3.7"
+    "devDependencies": {
+        "node-sass": "^3.8.0",
+        "mincer": "~1.4.0",
+        "ejs": "~2.4.2"
+    },
+    "eyeglass": {
+        "exports": "eyeglass-exports.js",
+        "needs": "^0.7.1"
+    },
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module bootstrap-sass](#apidoc.module.bootstrap-sass)
-
-
-
-# <a name="apidoc.module.bootstrap-sass"></a>[module bootstrap-sass](#apidoc.module.bootstrap-sass)
 
 
 
